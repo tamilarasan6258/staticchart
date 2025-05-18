@@ -5,7 +5,7 @@ import { ExchartComponent } from './exchart/exchart.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,ExchartComponent,RouterLink,RouterLinkActive],
+  imports: [RouterOutlet,RouterLink,RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
